@@ -214,7 +214,7 @@
                 lineJoin: 'bevel',
                 weight: 5.0,
                 fillOpacity: 0,
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'E':
@@ -227,7 +227,7 @@
                 lineJoin: 'bevel',
                 weight: 5.0,
                 fillOpacity: 0,
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'NW':
@@ -240,7 +240,7 @@
                 lineJoin: 'bevel',
                 weight: 5.0,
                 fillOpacity: 0,
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'SW':
@@ -253,7 +253,7 @@
                 lineJoin: 'bevel',
                 weight: 5.0,
                 fillOpacity: 0,
-                interactive: true,
+                interactive: false,
             }
                     break;
             }
@@ -263,7 +263,7 @@
         map.getPane('pane_Regions_2').style['mix-blend-mode'] = 'normal';
         var layer_Regions_2 = new L.geoJson(json_Regions_2, {
             attribution: '',
-            interactive: true,
+            interactive: false,
             dataVar: 'json_Regions_2',
             layerName: 'layer_Regions_2',
             pane: 'pane_Regions_2',
